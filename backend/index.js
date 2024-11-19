@@ -17,7 +17,7 @@ app.use(express.urlencoded({extended:true}));
 app.use(express.json()); 
 app.use(cookieParser());
 const corsOption={
-    origin:'*',
+    origin:'https://chat-app-1-7nys.onrender.com',
     credentials:true
 };
 app.use(cors(corsOption)); 
